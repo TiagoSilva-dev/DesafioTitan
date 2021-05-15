@@ -19,10 +19,10 @@
 
 # :camera: Screenshots
 <div align="center" display="flex">
-   <img src="./public/d1.png" width="400px">
-   <img src="./public/d2.png" width="400px">
-    <img src="./public/d3.png" width="400px">
-   <img src="./public/d4.png" width="400px">
+   <img src="public/d1.png" width="400px">
+   <img src="public/d2.png" width="400px">
+    <img src="public/d3.png" width="400px">
+   <img src="public/d4.png" width="400px">
 </div>
 
 # :rocket: Technologies
