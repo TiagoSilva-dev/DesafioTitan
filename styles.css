@@ -1,0 +1,82 @@
+body{
+  font-family:Verdana;
+  background-color: #fcfcfc;
+}
+.block
+{
+  margin: 0 auto;
+  max-width: 900px;
+  padding: 50px 30px;   
+}
+.input-res
+{
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font: 15px/1 'Open Sans', sans-serif;
+  color: #333;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 100%;
+  max-width: 500px;
+  background-color: #ddd;
+  border: none;
+  padding: 10px 11px 11px 11px;
+  border-radius: 3px;
+  box-shadow: none;
+  outline: none;
+  margin: 0;
+  box-sizing: border-box;
+  margin-top: 10px;
+}
+button{
+position: relative;
+display: block;
+color: black;
+background-color: #DDD;
+font-size: 14px;
+font-family: "montserrat";
+text-decoration: none;
+padding: 14px 60px;
+margin: 0 auto;
+margin-bottom: 10px;
+margin-top: 59px;
+}
+.btn{
+    position: relative;
+    display: block;
+    color: black;
+    background-color: #DDD;
+    font-size: 14px;
+    font-family: "montserrat";
+    text-decoration: none;
+    padding: 5px 30px;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    margin-right: 10px;
+}
+#tabela{
+  width:100%;
+  border:solid 1px;
+  text-align:left;
+  border-collapse:collapse; 
+}
+
+#tabela tbody tr{
+  border:solid 1px;
+  height:30px;
+  cursor:pointer;
+}
+
+#tabela thead{
+  background:beige;
+}
+
+#tabela thead th:nth-child(1){
+  width:100px;
+}
+
+#tabela input{
+  color:navy;
+  width:100%;
+}
