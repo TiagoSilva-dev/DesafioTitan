@@ -53,8 +53,10 @@ This project was made using the follow technologies:
 DROP TABLE IF EXISTS `precos`;
 CREATE TABLE IF NOT EXISTS `precos` (
   `IDPRECO` int NOT NULL AUTO_INCREMENT,
+  `IDPROD` int NOT NULL,
   `PRECO` decimal(6,2) NOT NULL,
-  PRIMARY KEY (`IDPRECO`)
+  PRIMARY KEY (`IDPRECO`),
+  KEY `IDPROD` (`IDPROD`)
 ) ENGINE=MyISAM AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 -- --------------------------------------------------------
