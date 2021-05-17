@@ -14,7 +14,6 @@
 # 📌 Conteudo
 
 * [Screenshots](#camera-screenshots)
-* [Objetivo](#computer-Objetivo)
 
 
 # :camera: Screenshots
