@@ -48,7 +48,7 @@
         <?php
         // trazendo os dados do banco e aplicando as regras de negocio 
               include "DB_Conexao.php";
-              $sql = "SELECT * FROM produtos AS C JOIN precos AS P ON C.IDPROD = P.IDPRECO";
+              $sql = "SELECT * FROM produtos AS C JOIN precos AS P ON C.IDPROD = P.IDPROD";
 
               $resultado = mysqli_query($conexao, $sql);
               while ($registro = mysqli_fetch_array($resultado)) {

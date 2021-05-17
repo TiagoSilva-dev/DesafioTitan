@@ -8,8 +8,8 @@ $cor = strtoupper(mysqli_real_escape_string($conexao, trim($_POST['cor'])));
 
 $sql = "INSERT INTO produtos (NOME, COR) VALUES ('$produto','$cor')";
 $conexao->query($sql);
-
-$sql = "INSERT INTO precos (PRECO) VALUES ('$preco')";
+$idinc = mysqli_insert_id($conexao);
+$sql = "INSERT INTO precos (PRECO,IDPROD) VALUES ('$preco','$idinc')";
 $conexao->query($sql);
 
 header('Location: index.php');
